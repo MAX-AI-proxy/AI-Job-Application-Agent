@@ -1,0 +1,7 @@
+
+openai-agents
+pypdf
+python-dotenv
+reportlab
+httpx
+beautifulsoup4
