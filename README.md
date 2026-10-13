@@ -1,5 +1,7 @@
 # AI Application Assistant
 
+This project was originally developed to automate parts of my own job application process. The public version retains the core functionality while excluding my personal application history, documents, credentials, and individual preferences.
+
 A Python AI agent that automates job research, suitability checks, and the preparation
 of individual application drafts. It combines LLM-driven research and writing with
 explicit Python rules, local application tracking, and PDF generation.
