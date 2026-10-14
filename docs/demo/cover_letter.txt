@@ -1,0 +1,13 @@
+Fiktives Beispiel: Bewerbung als Werkstudent AI & Business Operations
+
+Liebes Team von Beispielbetrieb A,
+
+ich möchte dazu beitragen, dass aus Prozessdaten verständliche Entscheidungen und aus ersten KI-Ideen überprüfbare Werkzeuge werden. Eure Werkstudentenstelle bietet dafür einen passenden Rahmen: die Verbindung von Serviceabläufen, Python und strukturierten Auswertungen entspricht den Aufgaben, mit denen ich mich in meinen Studienprojekten beschäftige.
+
+In einem Projekt habe ich einen Prototyp zur Klassifikation synthetischer Serviceanfragen entwickelt. Dabei habe ich Kategorien festgelegt, Ausgaben anhand von Beispielen geprüft und unklare Zuordnungen dokumentiert. Mir war wichtig, die Grenzen des Ansatzes sichtbar zu machen und Ergebnisse nicht allein deshalb zu übernehmen, weil sie plausibel formuliert waren.
+
+In einem weiteren Studienprojekt habe ich erfundene Prozessdaten mit Python und SQL ausgewertet und die Ergebnisse für unser studentisches Team aufbereitet. Diese Erfahrung möchte ich in die Analyse eurer Abläufe einbringen. Besonders interessiert mich, wie ihr geeignete erste Anwendungsfälle auswählt und den Nutzen eines Prototyps nachvollziehbar bewertet.
+
+Ich studiere Wirtschaftsinformatik an der Hochschule Beispielstadt und stehe für 16 Stunden pro Woche zur Verfügung. Zwei weitere Studiensemester sind eingeplant. Gerne würde ich im Gespräch erfahren, an welcher Aufgabe ich zunächst mitarbeiten könnte und welche Qualitätskriterien dabei für euer Team entscheidend sind.
+
+Viele Grüße

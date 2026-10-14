@@ -1,0 +1,77 @@
+{
+  "fictional": true,
+  "live_api_calls": 0,
+  "sample_date": "2026-01-15",
+  "prepared_inputs": [
+    "job listings and search results",
+    "fit scores and reasoning",
+    "cover-letter prose",
+    "180 km road-distance cache value"
+  ],
+  "actual_code": [
+    "CV/CSV import and hashing",
+    "existing agent tool function bodies",
+    "eligibility and duplicate checks",
+    "distance-cache lookup and threshold",
+    "SQLite persistence and selection",
+    "style-reference reading",
+    "PDF rendering and text checks",
+    "draft-status update",
+    "CLI formatters"
+  ],
+  "jobs": [
+    {
+      "label": "A",
+      "company": "Beispielbetrieb A (fiktiv)",
+      "title": "Werkstudent AI & Business Operations",
+      "prepared_fit_score": 9.1,
+      "url": "https://employer-a.example.invalid/jobs/ai-business-operations",
+      "decision": "bereit",
+      "rule_reason": "Arbeitsmodell grundsätzlich vereinbar",
+      "stored": true,
+      "job_id": 1,
+      "requirements": "Diese vollständig fiktive Werkstudentenstelle umfasst die Analyse von Serviceabläufen, die Entwicklung kleiner Python-Werkzeuge und die strukturierte Auswertung von Prozessdaten mit SQL. Das Team möchte LLM-gestützte Prototypen anhand nachvollziehbarer Kriterien prüfen. Erwartet werden ein laufendes Studium, grundlegende Python- und SQL-Kenntnisse sowie verständliche Dokumentation. Die Arbeitszeit beträgt 16 Stunden pro Woche. Die Tätigkeit ist remote möglich; gelegentliche Teamtermine werden gemeinsam geplant. Ein Lebenslauf und ein kurzes Anschreiben sind im erfundenen Szenario vorgesehen.",
+      "prepared_analysis": "Python, SQL, synthetische Klassifikation und Prozessanalyse sind durch das fiktive Profil belegt. Remote-Arbeit und 16 Wochenstunden passen; professionelle LLM-Erfahrung ist kein behaupteter Fakt.",
+      "final_workflow_status": "entwurf"
+    },
+    {
+      "label": "B",
+      "company": "Beispielbetrieb B (fiktiv)",
+      "title": "Werkstudent Digital Operations",
+      "prepared_fit_score": 7.4,
+      "url": "https://employer-b.example.invalid/jobs/digital-operations",
+      "decision": "pruefen",
+      "rule_reason": "Straßenentfernung ab konfiguriertem Ausgangsort nicht verlässlich bestimmbar",
+      "stored": true,
+      "job_id": 2,
+      "requirements": "Diese vollständig fiktive Stelle verbindet die Auswertung von Betriebsdaten mit der Dokumentation digitaler Abläufe. Erste Python-Kenntnisse und Interesse an Automatisierung sind willkommen. Die Arbeitszeit beträgt 16 Stunden pro Woche. Das Team fordert jede Woche einen Bürotag, benennt jedoch zwei mögliche Einsatzorte ohne verbindliche Zuordnung. Aufgaben und Studienanforderungen passen grundsätzlich zum erfundenen Bewerberprofil. Das fiktive Bewerbungsverfahren verlangt Lebenslauf und Anschreiben. Vor einer Empfehlung muss der tatsächliche Einsatzort und damit die Straßenentfernung geklärt werden.",
+      "prepared_analysis": "Fachlich interessant, aber der wöchentliche Einsatzort und die Anreise sind nicht zuverlässig geklärt. Der vorbereitete Fit-Wert ersetzt keine Regelprüfung.",
+      "final_workflow_status": "pruefen"
+    },
+    {
+      "label": "C",
+      "company": "Beispielbetrieb C (fiktiv)",
+      "title": "Werkstudent Prozessautomatisierung",
+      "prepared_fit_score": 6.8,
+      "url": "https://employer-c.example.invalid/jobs/process-automation",
+      "decision": "gesperrt",
+      "rule_reason": "Wöchentliche Präsenz: 180 km Straßenentfernung",
+      "stored": false,
+      "job_id": null,
+      "requirements": "Diese vollständig fiktive Werkstudentenstelle umfasst Prozessanalysen, kleinere Python-Automatisierungen und die Dokumentation von Datenflüssen. Sie richtet sich an Studierende mit ersten Programmierkenntnissen und einer strukturierten Arbeitsweise. Die Arbeitszeit beträgt 16 Stunden pro Woche. Die Aufgaben sind grundsätzlich mit dem erfundenen Profil vereinbar, jedoch ist mindestens ein Bürotag pro Woche in der erfundenen Fernen Beispielstadt verpflichtend. Für die Demonstration wird eine vorbereitete Straßenentfernung von 180 km verwendet. Das fiktive Verfahren verlangt einen Lebenslauf und ein Anschreiben.",
+      "prepared_analysis": "Aufgaben passen teilweise, doch die vorbereitete Entfernung von 180 km überschreitet bei wöchentlicher Präsenz die konfigurierte Grenze von 60 km.",
+      "final_workflow_status": "not_saved"
+    }
+  ],
+  "selected_job_id": 1,
+  "application_status": "entwurf",
+  "draft_status": "pruefen",
+  "stored_jobs": 2,
+  "application_count": 1,
+  "draft_count": 1,
+  "duplicate_draft_rejected": true,
+  "chosen_style": "tech_sample.txt",
+  "style_fallback_used": true,
+  "artifact": "cover_letter.pdf",
+  "database_published": false
+}

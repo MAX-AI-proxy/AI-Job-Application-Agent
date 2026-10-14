@@ -55,3 +55,6 @@ output/
 config/*
 !config/00_START_HIER.md
 !config/00_STILKOMPASS_ANSCHREIBEN.md
+
+# The only public PDF is this reviewed, entirely fictional showcase artifact.
+!docs/demo/cover_letter.pdf

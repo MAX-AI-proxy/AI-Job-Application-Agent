@@ -1,0 +1,85 @@
+{
+  "notice": "Entirely fictional showcase. Model/search responses and the route distance are prepared inputs, not live API results.",
+  "sample_date": "2026-01-15",
+  "applicant": {
+    "name": "Robin Muster (fiktiv)",
+    "street": "Beispielweg 12",
+    "zip_city": "00000 Beispielstadt",
+    "city": "Beispielstadt",
+    "email": "robin.muster@example.invalid",
+    "phone": "0000 000000"
+  },
+  "cv_facts": "VOLLSTÄNDIG FIKTIVES BEWERBERPROFIL\nRobin Muster, Bachelorstudent Wirtschaftsinformatik an der erfundenen Hochschule Beispielstadt, viertes Semester.\nKenntnisse: Python, SQL und grundlegende API-Verarbeitung aus Studienprojekten.\nProjekt: Prototyp zur Klassifikation synthetischer Serviceanfragen; Kategorien definiert, Ausgaben geprüft und Ergebnisse dokumentiert.\nProjekt: Auswertung erfundener Prozessdaten mit Python und SQL sowie verständliche Ergebnisdarstellung für ein studentisches Team.\nInteresse: KI-Anwendungen, Prozessautomatisierung und digitale Betriebsabläufe.\nVerfügbarkeit: 16 Stunden pro Woche, mindestens zwei weitere Studiensemester.\nAlle Angaben sind erfunden. Keine Tatsachen über den Repository-Autor.\n",
+  "search_profile": "# Fiktives Suchprofil\n\nWerkstudententätigkeit: AI & Business Operations, KI-Anwendungen und Prozessautomatisierung.\nPython und SQL sollen praktisch eingesetzt werden. Verfügbarkeit: 16 Stunden pro Woche.\nRemote oder gelegentliche Teamtermine sind passend. Wöchentliche Präsenz ist nur bis zur konfigurierten Straßenentfernung möglich.\n\n## Ausgeschlossene Unternehmen\n\nDie fiktive Ausschlussliste ist leer.\n",
+  "confirmed_projects": "# Fiktiver Projektstand\n\nUmgesetzt im erfundenen Szenario: Klassifikation synthetischer Serviceanfragen und Auswertung erfundener Prozessdaten mit Python und SQL.\nKeine professionelle Beratungserfahrung oder produktive Kundenintegration behaupten.\n",
+  "writing_rules": "# Fiktive Bewerbungsregeln\n\nNur Fakten des fiktiven Profils verwenden. Technisch präziser, zugänglicher Ton. Keine Zusagen außerhalb des Profils. Keine automatische Bewerbung. Leere Stilreferenzen sind erlaubt.\n",
+  "distance_settings": {
+    "origin_city": "Beispielstadt",
+    "origin_longitude": 0,
+    "origin_latitude": 0,
+    "max_weekly_distance_km": 60,
+    "near_cities": [],
+    "far_cities": []
+  },
+  "prepared_route_distances": {
+    "Ferne Beispielstadt": 180
+  },
+  "chosen_style": "tech_sample.txt",
+  "jobs": [
+    {
+      "label": "A",
+      "company": "Beispielbetrieb A (fiktiv)",
+      "title": "Werkstudent AI & Business Operations",
+      "url": "https://employer-a.example.invalid/jobs/ai-business-operations",
+      "location": "Beispielstadt",
+      "remote_model": "Remote mit gelegentlichen Teamterminen",
+      "attendance": "gelegentlich",
+      "application_format": "anschreiben",
+      "original_application_open": true,
+      "description": "Diese vollständig fiktive Werkstudentenstelle umfasst die Analyse von Serviceabläufen, die Entwicklung kleiner Python-Werkzeuge und die strukturierte Auswertung von Prozessdaten mit SQL. Das Team möchte LLM-gestützte Prototypen anhand nachvollziehbarer Kriterien prüfen. Erwartet werden ein laufendes Studium, grundlegende Python- und SQL-Kenntnisse sowie verständliche Dokumentation. Die Arbeitszeit beträgt 16 Stunden pro Woche. Die Tätigkeit ist remote möglich; gelegentliche Teamtermine werden gemeinsam geplant. Ein Lebenslauf und ein kurzes Anschreiben sind im erfundenen Szenario vorgesehen.",
+      "prepared_fit_score": 9.1,
+      "prepared_reason": "Python, SQL, synthetische Klassifikation und Prozessanalyse sind durch das fiktive Profil belegt. Remote-Arbeit und 16 Wochenstunden passen; professionelle LLM-Erfahrung ist kein behaupteter Fakt.",
+      "prepared_evidence": "Fiktive Anzeige aus scenario.json; weder Website abgerufen noch reale Ausschreibung bestätigt.",
+      "expected_status": "bereit"
+    },
+    {
+      "label": "B",
+      "company": "Beispielbetrieb B (fiktiv)",
+      "title": "Werkstudent Digital Operations",
+      "url": "https://employer-b.example.invalid/jobs/digital-operations",
+      "location": "Nordbeispielstadt / Westbeispielstadt",
+      "remote_model": "Wöchentliche Präsenz; genauer Einsatzort ungeklärt",
+      "attendance": "woechentlich",
+      "application_format": "anschreiben",
+      "original_application_open": true,
+      "description": "Diese vollständig fiktive Stelle verbindet die Auswertung von Betriebsdaten mit der Dokumentation digitaler Abläufe. Erste Python-Kenntnisse und Interesse an Automatisierung sind willkommen. Die Arbeitszeit beträgt 16 Stunden pro Woche. Das Team fordert jede Woche einen Bürotag, benennt jedoch zwei mögliche Einsatzorte ohne verbindliche Zuordnung. Aufgaben und Studienanforderungen passen grundsätzlich zum erfundenen Bewerberprofil. Das fiktive Bewerbungsverfahren verlangt Lebenslauf und Anschreiben. Vor einer Empfehlung muss der tatsächliche Einsatzort und damit die Straßenentfernung geklärt werden.",
+      "prepared_fit_score": 7.4,
+      "prepared_reason": "Fachlich interessant, aber der wöchentliche Einsatzort und die Anreise sind nicht zuverlässig geklärt. Der vorbereitete Fit-Wert ersetzt keine Regelprüfung.",
+      "prepared_evidence": "Fiktive Anzeige aus scenario.json; beide Ortsnamen sind erfunden. Kein Geocoding vorgenommen.",
+      "expected_status": "pruefen"
+    },
+    {
+      "label": "C",
+      "company": "Beispielbetrieb C (fiktiv)",
+      "title": "Werkstudent Prozessautomatisierung",
+      "url": "https://employer-c.example.invalid/jobs/process-automation",
+      "location": "Ferne Beispielstadt",
+      "remote_model": "Verpflichtende wöchentliche Präsenz",
+      "attendance": "woechentlich",
+      "application_format": "anschreiben",
+      "original_application_open": true,
+      "description": "Diese vollständig fiktive Werkstudentenstelle umfasst Prozessanalysen, kleinere Python-Automatisierungen und die Dokumentation von Datenflüssen. Sie richtet sich an Studierende mit ersten Programmierkenntnissen und einer strukturierten Arbeitsweise. Die Arbeitszeit beträgt 16 Stunden pro Woche. Die Aufgaben sind grundsätzlich mit dem erfundenen Profil vereinbar, jedoch ist mindestens ein Bürotag pro Woche in der erfundenen Fernen Beispielstadt verpflichtend. Für die Demonstration wird eine vorbereitete Straßenentfernung von 180 km verwendet. Das fiktive Verfahren verlangt einen Lebenslauf und ein Anschreiben.",
+      "prepared_fit_score": 6.8,
+      "prepared_reason": "Aufgaben passen teilweise, doch die vorbereitete Entfernung von 180 km überschreitet bei wöchentlicher Präsenz die konfigurierte Grenze von 60 km.",
+      "prepared_evidence": "Fiktive Anzeige und vorbereiteter Cache-Wert aus scenario.json. Die 180 km sind keine Messung eines Routingdienstes.",
+      "expected_status": "gesperrt"
+    }
+  ],
+  "prepared_letter": {
+    "subject": "Fiktives Beispiel: Bewerbung als Werkstudent AI & Business Operations",
+    "salutation": "Liebes Team von Beispielbetrieb A,",
+    "paragraphs": "ich möchte dazu beitragen, dass aus Prozessdaten verständliche Entscheidungen und aus ersten KI-Ideen überprüfbare Werkzeuge werden. Eure Werkstudentenstelle bietet dafür einen passenden Rahmen: die Verbindung von Serviceabläufen, Python und strukturierten Auswertungen entspricht den Aufgaben, mit denen ich mich in meinen Studienprojekten beschäftige.\n\nIn einem Projekt habe ich einen Prototyp zur Klassifikation synthetischer Serviceanfragen entwickelt. Dabei habe ich Kategorien festgelegt, Ausgaben anhand von Beispielen geprüft und unklare Zuordnungen dokumentiert. Mir war wichtig, die Grenzen des Ansatzes sichtbar zu machen und Ergebnisse nicht allein deshalb zu übernehmen, weil sie plausibel formuliert waren.\n\nIn einem weiteren Studienprojekt habe ich erfundene Prozessdaten mit Python und SQL ausgewertet und die Ergebnisse für unser studentisches Team aufbereitet. Diese Erfahrung möchte ich in die Analyse eurer Abläufe einbringen. Besonders interessiert mich, wie ihr geeignete erste Anwendungsfälle auswählt und den Nutzen eines Prototyps nachvollziehbar bewertet.\n\nIch studiere Wirtschaftsinformatik an der Hochschule Beispielstadt und stehe für 16 Stunden pro Woche zur Verfügung. Zwei weitere Studiensemester sind eingeplant. Gerne würde ich im Gespräch erfahren, an welcher Aufgabe ich zunächst mitarbeiten könnte und welche Qualitätskriterien dabei für euer Team entscheidend sind.",
+    "closing": "Viele Grüße",
+    "recipient": ""
+  }
+}

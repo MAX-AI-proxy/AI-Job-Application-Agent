@@ -1,15 +1,14 @@
 # AI Application Assistant
 
-This project was originally developed to automate parts of my own job application process. The public version retains the core functionality while excluding my personal application history, documents, credentials, and individual preferences.
+I originally built this Python AI agent to automate parts of my own job application
+process: finding suitable opportunities, checking constraints, and preparing
+individual application drafts. It combines LLM-driven research and writing with
+explicit Python rules, SQLite tracking, and PDF generation.
 
-A Python AI agent that automates job research, suitability checks, and the preparation
-of individual application drafts. It combines LLM-driven research and writing with
-explicit Python rules, local application tracking, and PDF generation.
-
-Built as a portfolio project, it demonstrates a practical workflow from an original
-job listing to a reviewable application draft. The current prompts target
-German-language working-student applications in Germany. Every application remains
-under human control: the assistant neither submits applications nor sends emails.
+The public repository contains the **complete application code**, with no personal
+application history, private documents, or credentials. Live AI operation needs
+**your own OpenAI API key**. The current workflow targets German-language
+working-student applications in Germany. Nothing is submitted or emailed automatically.
 
 ## Key features
 
@@ -26,20 +25,32 @@ under human control: the assistant neither submits applications nor sends emails
 - **Automate:** prevent concurrent agent runs and optionally schedule two daily runs
   through macOS LaunchAgent. Scheduled runs can incur API charges.
 
+## See the workflow in action
+
+**[Explore the fictional walkthrough](docs/demo/README.md)** ·
+**[Open the generated cover-letter PDF](docs/demo/cover_letter.pdf)**
+
+```text
+Search profile → listings + AI assessment → Python rule checks
+               → SQLite → individual draft → PDF → human review
+```
+
+| Fictional opportunity | Python decision | Outcome |
+|---|---|---|
+| A: AI & Business Operations | Ready | Stored, selected and given a PDF draft |
+| B: Digital Operations | Review | Attendance location needs clarification |
+| C: Process Automation | Blocked | Prepared commuting distance exceeds the limit |
+
+The walkthrough actually executes the existing imports, tool bodies, rules,
+database operations, PDF generator and status updates. **Search results, AI scores,
+letter prose and the route-distance input are prepared fictional responses, not
+live API results.** No credentials or paid calls are needed to reproduce it:
+`python -B scripts/run_showcase.py`.
+
 ## Architecture and tech stack
 
 One agent definition supports two modes: **search** and **draft**. Its Python tools
 control database access, eligibility checks, reference reading, and document output.
-
-```text
-Configuration + CV facts + application history
-                      ↓
-CLI → Search / draft agent → Hosted web search + Python tools
-                      ↓
-Eligibility rules + duplicate checks + distance policy
-                      ↓
-SQLite records → PDF / email draft → Human review
-```
 
 | Area | Implementation |
 |---|---|
@@ -211,7 +222,8 @@ queries and OSRM receives coordinates; local storage does not mean local-only pr
 python -B -m unittest discover -s tests -v
 ```
 
-Tests use invented fixtures and mocked external services, not paid APIs. PDF tests
+For a fresh checkout, first copy the neutral runtime templates above; no API key
+is needed for tests. Tests use invented fixtures and mocked external services. PDF tests
 need PDF libraries and a supported font pair or are skipped. Prompt tests isolate
 the actual function bodies from the SDK. `python -B test_pdf.py` is a manual layout
 probe with fictional sender data; it skips the empty startup reference.

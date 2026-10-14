@@ -1,0 +1,32 @@
+$ python -B scripts/run_showcase.py
+OFFLINE SHOWCASE: all data fictional; no OpenAI or routing requests.
+Scores, reasoning, letter prose and one route distance are prepared inputs.
+
+[1] Imported 6 documents; 0 previous applications.
+[2] Process prepared listing data through the original save tool:
+  A: prepared score 9.1/10 -> bereit
+     Job-ID 1: bereit. Arbeitsmodell grundsätzlich vereinbar
+  B: prepared score 7.4/10 -> pruefen
+     Job-ID 2: pruefen. Straßenentfernung ab konfiguriertem Ausgangsort nicht verlässlich bestimmbar
+  C: prepared score 6.8/10 -> gesperrt
+     Ausgeschlossen: Wöchentliche Präsenz: 180 km Straßenentfernung
+
+[3] Selected ready job 1 from SQLite.
+[4] Technical style selected for this fixture; empty reference -> style-guide fallback.
+[5] Pass prepared fictional prose to the existing PDF tool:
+PDF erzeugt: 0001_Beispielbetrieb_A_fiktiv.pdf (Textgröße: 8.9 pt)
+    PDF: output/anschreiben/0001_Beispielbetrieb_A_fiktiv.pdf. Zur manuellen Prüfung, NICHT versendet.
+[6] Status changed to entwurf; duplicate draft request rejected.
+    PDF nicht erstellt: Ein Bewerbungsentwurf ist bereits vorhanden
+
+Actual CLI jobs formatter (main.jobs):
+  2 | pruefen     | 7.4/10 | Beispielbetrieb B (fiktiv) – Werkstudent Digital Operations
+    https://employer-b.example.invalid/jobs/digital-operations
+  1 | entwurf     | 9.1/10 | Beispielbetrieb A (fiktiv) – Werkstudent AI & Business Operations
+    output/anschreiben/0001_Beispielbetrieb_A_fiktiv.pdf
+
+Actual CLI applications formatter (main.applications):
+  1 | entwurf        | Beispielbetrieb A (fiktiv) – Werkstudent AI & Business Operations
+
+Exported: cover_letter.pdf, cover_letter.txt, results.json, terminal.txt
+Temporary SQLite and input workspace removed; nothing submitted or sent.
